@@ -4,8 +4,29 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+h1{
+    text-align: center;
+}
+h1, h3 { 
+    color: red;
+}
+#upcomingEvents_result, #topsong_result{
+    background-color: beige;
+    padding:10px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: auto;
+}
+a {
+    color:black;
+}
+#searchTerm{
+    width: 50%;
+}
+.row{
+    margin: 10px;
+}
 
-h1, h3 { color: red;
-
-
+td, tr{
+    padding:5px;
 }
