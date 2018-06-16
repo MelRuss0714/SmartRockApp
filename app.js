@@ -56,7 +56,7 @@ $(document).ready(function () {
             for (var j = 0; j < 10; j++) {
                 
 
-                $("#tbody1").append("<tr><td>" + (j + 1) + ". </td><td><a href='" + resultLastFM[j].url + "'>" + resultLastFM[j].name + "</td></a></tr>");
+               $("#tbody1").append("<tr><td>" + (j + 1) + ". </td><td class='track' data-name='" + resultLastFM[j].name + "'>" + resultLastFM[j].name + "</td></tr>");
                 $("#topsong_result").append(songDiv);
 
             }
