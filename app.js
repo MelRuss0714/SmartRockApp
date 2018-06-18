@@ -49,14 +49,14 @@ $(document).ready(function () {
         }).then(function (toptracks) {
             var resultLastFM = toptracks.toptracks.track
             var songDiv = $("<table id='tbody1'>");
-            $("#tbody1").append("<tr><td> 1. </td><td><a href='" + resultLastFM[0].url + "'>" + resultLastFM[0].name + "</td></a></tr>");
+            $("#tbody1").append("<tr><td> 1. </td><td class='track' data-name='" + resultLastFM[0].name + "'>" + resultLastFM[0].name + "</td></tr>");
             $("#topsong_result").append(songDiv);
 
             //Writes top tracks from Last FM
             for (var j = 0; j < 10; j++) {
                 
 
-                $("#tbody1").append("<tr><td>" + (j + 1) + ". </td><td><a href='" + resultLastFM[j].url + "'>" + resultLastFM[j].name + "</td></a></tr>");
+                $("#tbody1").append("<tr><td>" + (j + 1) + ". </td><td class='track' data-name='" + resultLastFM[j].name + "'>" + resultLastFM[j].name + "</td></tr>");
                 $("#topsong_result").append(songDiv);
 
             }
