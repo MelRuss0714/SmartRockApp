@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 
     <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css" />
 
@@ -19,10 +19,13 @@
     <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
 
     <script src="https://code.jquery.com/jquery.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=New+Rocker" rel="stylesheet">
+
+    <script src="javascript/app.js"></script>
+
+
    
-    
-    <script src="app.js"></script>
 
 </head>
 
@@ -63,7 +66,9 @@
             <div class="col-md-7">
                 <div class="row">
                     <div class="articles">
-                        <h3>Upcoming Events</h3>
+                        <h3>Upcoming Events
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQeSURBVGhD7ZhbSBRRGMePFtGNki4UWRGUOTOuEanti+Vipj4kYikUapo1E0Ua9VLQjehCF5LSvBFlBBH5UmJ0eajd7aFIoqigJHquXqL7dW1O/7Od3Wams2vGXkbYP/zZ3dlvz/f9zjnf2dklCSWUUEJxVdVi59KGouwmryod8KyX0/jloaXV+c55LSWOeT21Gd+8mkwB88qtzZX420NHGwuy71ytU955NOm7V5WPeVT555CCqcxzuuqX5pxxq/ILtyb3e7T0EremFPtB8NoPs1aZw8Ptq44ah3RljfLVo0q+2+ukZd516UVYlTd+GE1u5NvsAA+3r7ya1MuK9WhKRQCCPTIots1Yz2wqzDrOw+2r7pqMPgbiVqXLfghVKvwNIftYzzSXZmZWunKW8HB7qjrPub0ufyG9WO2gf2CUCgD5WM+wA6AmL2c+D7enGES1y0mZjTDMrGfqC7I7eah9ZYQwwlzCNkPT32MHADvNeHjspZ8g4/RWsoh2kFz9HBnDL5skgmCucjm38ZD4iVKSpLeRHfAH2o6XsP95GzkEqNE8zN4QTHo7aQwAWI33+gCVZn+IVrJSBGD0pU2pn2wNga0zCzP+XlR8wD0N0/4CsBcE9j4g7omKD9j+EJ0kBRDdouIDDgXBtpl+ksT3JhCrIAFgJ5r3taj4gENB9Gye5n8fn39mPM1iIhSeCR+En1sLNvpzUzI9VT2B1uen0mULMuiq3GwhRMBsTJ4iusKslSHZI2PyUP7RkkTrcmfQxemzg3ZJc4IwVghmjP0xqqvCvpFxGnVZE4fzra1jTRABl2BlRBBB4w6Ap42saBcZgZm6KUwaxufXpghBGgpShfFBRwsE26lJmNDi/tYk0+uHO0cJQc7UTjDFmdxG3tGTZCxPHTkBQoH7hUkNvrZlKt1V5kBzDzNdP1I+2QShLppOvzQnm2KMRq7dPHVkhS11WJTQ6A8nhtMNRVn+BhbBsJVh28yNnvFZVs1o5DrKbjR56sgKM3RDlNTqvSsygkeqCCackeMt+qKCp4yOsGc9ouRWd22cEQQZDAxW4S4gZvJ00RMSdYoKsBqzSs+qs0wwu5eHh8HYPbitGclTRVcosExUhMgimD0rHMK+QOxLrMR4nib6ontIMpI+sxYSygzmIrbZvnKFbijOotdxmoniALGdp4idWCMKixnAn5qGC68zAzg+/6ojcYeooP8xW2E+bOylHyOjUECvqLDBGk2+nw8bH2GLTQLMY1FxgzHGUPiQ8ZN+ikzBjPaJCvwX47MP+FDxF27qpqKgJ6JCBzJWo5QPYw/pzWQiCrtvLTScAX+Bf9xeYt/KmOF/Os0AcRM9Ftvf44MVYMpR6NMQAD64kf044+H2Fr8DKEXRp/Hoha/h+UG9hcg8JKGEEkookiLkF2+5Gpd5UC7nAAAAAElFTkSuQmCC">
+                        </h3>
                         <table class="table">
                             <div id="upcomingEvents_result">
 
@@ -73,7 +78,9 @@
                 </div>
                 <div class="row">
                     <div class="articles">
-                        <h3>Top Songs</h3>
+                        <h3>Top Songs
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAR0SURBVGhD7VhfaFtVHK5jTw5mH3wSJuK/l6EvLoksg7j8Wbvk3GZNAm2TrumS2ND8uVkWnLlpuoA+KA36oA59Ex8Uh9hu3ZYU5oMg0m2ICmNSpa8duIl0TduttbvH3y85t03X47wp7t4M88EHybm/33e/75x7cm9uWwsttKA9fPH8S15RynmTuXM+UZpG4mccw2OsrHnRE8++6EvmzvvEHH0wpUmsZW3NBV8i54IQC2jUm5RWgOPwOeYVswSJn+H4hFfMrVZrROm2R8w6WXtzwJOQzGiezfalnuTIc+zQFvjS2ech0DcbgUf2s0P6oj+T2eVLSjdYiC8shcJOHKeT5Em53JWSS+TTKstExDE8hjVQf6a2Mrk51MBxXQGzO8Jmd4YMFR7HMbnk8sll4TYtC3QTS2ReniJerMFamIDfqhMAGjimK+Ban2Wr0YvfwewBmP21LSEYYXVW5YuCGWuhx19bFWkWv+sGj5h/AY0Ir6dX7f7IaXtv6CkIMc0LUE8I870lGGw/FAif6opmansL9g6T1R4wo44jw29Qhz9SJRkInecZv59ySZDJ0dBXSp8nfhJX1MFktQdeTl3RE+tB3MFjP/KM84i1Sh9qwKp0M1ntEUgWdrvC4lnFkLM/dIVnmsfDR8OXlT4STo4rPxS6weEPmxVD9r7wOFw2P/OM1xP2EYa4uN4XCNmYnL6w9YWHYbN/cqhncI88JXTiHuAFQOIvGmx2S0dvZK+jL3wO+t4CicdqSk0GMBsBrnBCLMN9xM/KHg3QsvsZWJm34cY4WWWJFOgl8jQ73IIu+NP+yhN3bPueRf7RadzNhh8NoOFFuyG7aDPOAOl9nFm0Gt5s+lAV2z57xWq8wQmwiRWrYa5iM73G2poLCzaTF0Ks8IzzWK09aGquP1YVq+llMLbEM/xAWo3z85ZX9XtYrActtO2AS2Waa1QFofcCk9IXMKthnsHGaOhkcvqAWiw7wcjsVmONEVeUSeqDvz7s6Fjq2/8r7A+ZZ1ANKzbD2nLAfE0+43QxWe0Bjx0X8Bnq3ueH6d3jFlqxG9d4ZnnE2rsnLFT+0smew4SrTFZbwIn31j/lQqi5pW5zN880j1iLPUp/jS7t7y0Q5LN6E/jmZMFuOsAzzSPWYs9mDXKWyWsDecq9p/4xHZ9ucbzRIFUt6N3QIffg/4x29xU4eXH95CVSwWA4vq0gOCmgsRFGOI3jDx10wt2+6cQl4Tg7tK0gCNTYCEKWlTeS/xEKO9zRzEckkrpGIuIvCv3xxO/D6RhFRlKxO8JQ6qo7lWrHju0EwV7UQC1FNxCL36w/J3o4Es18gJ6wpyF0RdMTysuBf6PzWOIWGmo0CPZgL0+TR/D0NbOnHt5E7rondpKqZU969KdTaenjiYEBqoZYiz08rX8iemL21CM4Ovbd4GiRNhPRE7OnHq0gD5H/8yD54rc8MT2Jnpg99YD07/LEdGW++A6zpx79meIuCPM+CFwZHB37QU8G82OXYTXeGyro/Ma+hRZa0BttbX8DC37Figfs6wcAAAAASUVORK5CYII=">
+                        </h3>
                         <div id="topsong_result"></div>
                     </div>
                 </div>
@@ -92,12 +99,14 @@
 
             <div class="col-md-5">
                 <div class="articles">
-                    <h3>Top video</h3>
+                    <h3>Top video     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAP3SURBVFhH7VZbTxNBFK6JJhp99fLgi/H2A0z0TbxiL7tNNCRqjPqgUtru1niD0gqaKChGKTVqLCK0uy2CSqvGqPigD8ILgkQrD5oQ8PYDtHiBWNb51lmCOC2lWNxEv+RLZmfOOfPNzuUcwz+BoN2YHxb4cNjFfwg5LIMg2mHRKmOMmk095KJNy2UX96zp4ObEE5843BMqV3qvV6pEG33XyFhY5LvqbZal1G1qELIb82TB8qm9xpXsu1ml9Kcgxtp8YhK2QYd5NXXPLUJO0zJZ4BLdtW6mKBZhS3w+SY78JTRM7iCLfHe7X0yyhKRjO/mTEZF/SsNkD8VgmAbSz18gOU0bcebSbWsq9t04rTQd3JJocBjX03CZ47ojb47s5LzkQL8JOc3fQbTRJx3aOJuaGXBbcfhZAjLhk2pxGLebhssMksAvIufj7d2ynZ/j9UfVlYLxeq+CPozBBrZ4PnBDWZNHz7oVo6VAZexcCdOmJ1iuEIHv1YkzQfOBglmSyPe3VYvfWQFBjJE/19ewO2+m5LR8622qZNqZuAJl5RpepYkvYNrAFzHo9OMjLFiK75btGmAFG807ZTsGJCd3eOoFitbXz+s8IwFSbdPzulIl4rK+Cotcyi2GPURC3O1q9hP0c4v5zLcYaQkvvxYg1V/obcbKuW+TvyTCcMTFS3T68TF2y1ILrMDWfA3ZLRvwVOASaWOZEj5IfVKRaR2dfnyQ1fSMzgiptqm7tkSJiNY4fJBb22om/lC3+YQk8e1QJ84UsmB23PJsT/Sn+yNkLFa6dSDk5Irgg3SVTaoLC9zHCae6QOGKGbLIvXxUZR9iiiR9j6qKhsjK47ClbgYkfhQAKATSbTfGyLmbXLHQ4DAvIIc/HnVvS3QFipXXjSdUoh0t2Zog+fNFo4ufT81HgBIKuRXnChkCNxTnGUQbfRiDTVA0LqZu2eHxsbzpJK3tjey3dmIrQLQlwbwHY9SMCeRW3Ew8H3gVcPGI7zv0Be3mtdQsOxy71DKvsjb28GQgOngy0KLkjtHBU1dirRVXm+fSqTMDxPkbHw5J954q8v3OnBHxMQ9E0qmZsHl83sJSn6LRgJXlWpxG6V6H+ieplt+wz1290+Y9/+X45ahyou6OJrCFGSxXxHxUzy8g4vJtXv9A+cWbqjhdCdzn9q2CuLILN0bE6UbgHve5JYWemo+l/mvDo8XpQuDeYv9Cm6fmQ7Evkhwr7q8KxMQaj5wJDbHEgboQyBKm8b9AFv8LnCzHCtTlJaGvjH6fGapPha4fag26TnUa0hQLKLc6mMH+NLMqt34WrK2kYM2tSMRXC9a62H2qh4nfClaU4FNV8lcEog8mXPLrGwbDD1k0qg7XKqWJAAAAAElFTkSuQmCC"></h3>
                     <div id="topVideo_result"></div>
                     <br>
                     <iframe id="ytplayer" type="text/html" width="450" height="320" src="http://i.ytimg.com/vi/{video_id}/maxresdefault.jpg"
                         frameborder="0" allowfullscreen>
+
                 </div>
+                
             </div>
         </div>
     </div>
@@ -105,13 +114,12 @@
     <script src="javascript/search.js"></script>
     <script src="javascript/auth.js"></script>
     <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
-            <div class="col-md-6">
-                    <iframe id="ytplayer" type="text/html" width="720" height="405"
-                    src="https://www.youtube.com/embed/M7lc1UVf-VE"
-                    frameborder="0" allowfullscreen>
-            </div>
+    <div class="col-md-6">
+        <iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/M7lc1UVf-VE" frameborder="0"
+            allowfullscreen>
+    </div>
 
-        </div>
+    </div>
     </div>
 
 </body>
