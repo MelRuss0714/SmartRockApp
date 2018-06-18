@@ -42,7 +42,7 @@ $(document).ready(function () {
         });
 
         //Query Last FM
-        var queryLastFM = "http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=" + band + "&api_key=ae763900e0fbaf933486df8e2d16cb4d&format=json";
+        var queryLastFM = "https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=" + band + "&api_key=ae763900e0fbaf933486df8e2d16cb4d&format=json";
         $.ajax({
             url: queryLastFM,
             method: "GET"
@@ -74,7 +74,7 @@ $(document).ready(function () {
 
         });
 
-        var queryAlbum = "http://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=" + band + "&api_key=ae763900e0fbaf933486df8e2d16cb4d&format=json";
+        var queryAlbum = "https://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=" + band + "&api_key=ae763900e0fbaf933486df8e2d16cb4d&format=json";
         $.ajax({
             url: queryAlbum,
             method: "GET"
@@ -140,7 +140,7 @@ $(document).ready(function () {
                 $("#upcomingEvents_result").prepend(showDiv);
             }
         });
-        var queryLastFM = "http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=" + band + "&api_key=ae763900e0fbaf933486df8e2d16cb4d&format=json";
+        var queryLastFM = "https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=" + band + "&api_key=ae763900e0fbaf933486df8e2d16cb4d&format=json";
         $.ajax({
             url: queryLastFM,
             method: "GET"
@@ -186,7 +186,7 @@ $(document).ready(function () {
             });
         });
 
-        var queryAlbum = "http://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=" + band + "&api_key=ae763900e0fbaf933486df8e2d16cb4d&format=json";
+        var queryAlbum = "https://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=" + band + "&api_key=ae763900e0fbaf933486df8e2d16cb4d&format=json";
         $.ajax({
             url: queryAlbum,
             method: "GET"
