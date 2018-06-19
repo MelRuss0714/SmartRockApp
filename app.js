@@ -7,7 +7,7 @@ $(document).ready(function () {
     //Api searches from album cover on clicks 
     $("body").on("click", ".mcs-item", function () {
         searchCount++;
-        var position = searchCount;
+        var position = searchCount % 16;
 
         //Empty all divs of past searches
         $('#upcomingEvents_result').empty();
@@ -106,7 +106,7 @@ $(document).ready(function () {
 
 
         searchCount++;
-        var position = searchCount;
+        var position = searchCount % 16;
 
         // event.preventDefault() prevents the form from trying to submit itself.
         // We're using a form so that the user can hit enter instead of clicking the button if they want
